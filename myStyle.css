@@ -1,0 +1,15 @@
+.image{
+    background-size:cover;
+    background-repeat: no-repeat;
+} 
+
+.word{
+    font-size:20px;
+}
+
+#swing{
+  -webkit-animation-duration: 3s;
+  -webkit-animation-delay: 2s;
+  -webkit-animation-iteration-count: infinite;
+}
+    

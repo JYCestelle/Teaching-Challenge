@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="Yicheng Jiang">
+	<title>Animate.css Simple Tutorial</title>
+
+	<!-- materialize for styling; looks a bit nicer than bootstrap -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+	<!-- font-awesome for icons -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+	<!-- animate css -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<link rel="stylesheet" href="myStyle.css">
+
+</head>
+
+<body>
+	<header class="animated fadeIn">
+		<h1><i class="fa fa-gamepad" aria-hidden="true"></i> Animate.css Showcase</h1>
+		<a id="reload-button" class="waves-effect waves-light btn pink">Reload Page</a>
+	</header>
+	<div role="grid" class="container">
+		<!--<div id="boxCard"></div>-->
+	</div>
+      
+    <main>
+      <div class="container">
+        <!-- This row shows off some static animations, as well as how to begin transitions with a click -->
+        <div class="row center-align">
+          <div class="col s3"><a id="bounce" class="waves-effect waves-light btn">Bounce Me</a></div>
+          <div class="col s3"><a id="swing" class="waves-effect waves-light btn animated swing">Swing Swing</a></div>   
+          <div class="col s3"><a id="fade" class="waves-effect waves-light btn animated fadeInUp">FadeIn Up</a></div>
+        </div>
+        <br><br>
+        <div role="grid" class="container">
+            <div class="col s3">
+                <img id="image" src="img/card32.jpg">
+                <button id="jello" class="btn waves-effect waves-light">
+                    <i class="material-icons right">Jello image</i>
+                </button>
+        
+            </div>
+        </div>
+
+
+      </div>
+    </main>
+  <!-- Compiled and minified JavaScript -->
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+  <script src="app.js"></script>
+  </body> 
+</html>
